@@ -1,0 +1,37 @@
+
+#ifndef __MYTOOLS_MATH_XQUADRATICEQUATIONADDIN_IDL__
+#define __MYTOOLS_MATH_XQUADRATICEQUATIONADDIN_IDL__
+
+#ifndef __com_sun_star_uno_XInterface_idl__
+#include <com/sun/star/uno/XInterface.idl>
+#endif
+
+#ifndef __com_sun_star_lang_IllegalArgumentException_idl__
+#include <com/sun/star/lang/IllegalArgumentException.idl>
+#endif
+
+module mytools { module sheet {
+/** Quadratic equation.
+    
+    ax^2+bx+c=0
+*/
+interface XQuadraticEquationAddIn : ::com::sun::star::uno::XInterface
+{
+    /** Calculates quadratic formula.
+        x = (-b +-sqrt(b^2 - 4ac))/2a
+        
+        @param a coefficient of x^2 term
+        @param b coefficient of x term
+        @param c remained constant
+        @param type 0 for additive or 1 for substractive
+        @throws ::com::sun::star::lang::IllegalArgumentException 
+                type is wrong
+        @return result of quadratic formula, maybe complex value
+    */
+    any quadratic( [in] double a, [in] double b, [in] double c, [in] long nType ) 
+            raises( ::com::sun::star::lang::IllegalArgumentException );
+};
+
+}; };
+
+#endif

@@ -1,0 +1,29 @@
+
+  Spreadsheet functions for quadratic equation
+  
+    This extension contains the following functions that can be 
+    used on Spreadsheet of OpenOffice kind.
+
+  quadratic(a;b;c;type)
+  
+    Calculates solution of the quadratic equation: 
+    ax^2+bx+c=0
+    x=(-b+-sqrt(b^2-4ac))/2a
+    When type is 0, result of (-b+sqrt(b^2-4ac))/2a is returned, 
+    and when type is 1, (-b-sqrt(b^2-4ac))/2a is returned.
+    This function returns complex value if b^2 < 4ac.
+
+
+
+  How to Build
+    Setup OpenOffice SDK and load its environmental variables.
+    > make
+    You would find created package under files directory.
+
+  Translation
+    Copy from po/strings.pot file to your target language and 
+    translate it. And then put the file in po directory with 
+    named LANGUAGE.po.
+    > python genres.py
+    Required files are generated under gen directory. They can be 
+    replaced with them contained in the package. Or build with them.

@@ -1,0 +1,59 @@
+#. strings
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-31 15:43+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Text editor\n"
+"X-Accelerator-Marker: ~\n"
+
+#: id_name
+msgid "Quadratic Equation Add-In"
+msgstr ""
+
+#: id_description
+msgid "Calculates quadratic formula."
+msgstr ""
+
+#: id_quadratic_description
+msgid "Calculates quadratic formula x=(-b+-sqrt(b^2-4ac))/2a"
+msgstr ""
+
+#: id_quadratic_a_name
+msgid "a"
+msgstr ""
+
+#: id_quadratic_a_description
+msgid "Coefficient of x^2 term"
+msgstr ""
+
+#: id_quadratic_b_name
+msgid "b"
+msgstr ""
+
+#: id_quadratic_b_description
+msgid "Coefficient of x term"
+msgstr ""
+
+#: id_quadratic_c_name
+msgid "c"
+msgstr ""
+
+#: id_quadratic_c_description
+msgid "Remained constant"
+msgstr ""
+
+#: id_quadratic_type_name
+msgid "type"
+msgstr ""
+
+#: id_quadratic_type_description
+msgid "0 for additive or 1 for substractive"
+msgstr ""
